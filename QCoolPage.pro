@@ -8,7 +8,7 @@ QT       += core gui printsupport
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
-TARGET = QCoolPage
+TARGET = DataAnalyze
 TEMPLATE = app
 
 MOC_DIR = $$OUT_PWD/mocfile

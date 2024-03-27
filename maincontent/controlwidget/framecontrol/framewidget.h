@@ -26,7 +26,7 @@ private:
     Ui::FrameWidget *ui;
     FlowLayout *flowLayout;
 private:
-    const QString IMAGE_PATH = ":/res/res/image/image.png";
+    const QString IMAGE_PATH = ":/res/res/image/icon.png";
 private:
     void initValue();
 };

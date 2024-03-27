@@ -39,7 +39,7 @@ void SystemTray::createAction() {
     exitSoftWare = new QAction(tr("退出软件 "), this);
 
     this->setIcon(QIcon(GlobalSpace::LOGO_PATH));
-    this->setToolTip(tr("QCoolPage"));
+    this->setToolTip(tr("DataAnalyze"));
 
     connect(exitSoftWare, SIGNAL(triggered(bool)), qApp, SLOT(quit()));
     connect(aboutSoftWare, SIGNAL(triggered(bool)), this, SLOT(aboutSlot()));

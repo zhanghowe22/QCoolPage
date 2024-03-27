@@ -1,6 +1,5 @@
 <RCC>
     <qresource prefix="/res">
-        <file>res/image/image.png</file>
         <file>res/image/banna/1.jpg</file>
         <file>res/image/banna/2.jpg</file>
         <file>res/image/banna/3.jpg</file>
@@ -30,8 +29,8 @@
         <file>res/stylesheet/stylesheet.qss</file>
         <file>res/image/other/star.png</file>
         <file>res/image/other/half_star.png</file>
-        <file>res/image/other/splash.png</file>
         <file>res/image/icon.png</file>
+        <file>res/image/loading.png</file>
     </qresource>
     <qresource prefix="/qt">
         <file>etc/qt.conf</file>

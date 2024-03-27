@@ -33,7 +33,7 @@ SplashScreen *SplashScreen::getInstance()
 {
     if(nullptr == m_instance)
     {
-        m_instance = new SplashScreen(QPixmap(":/res/res/image/other/splash.png"));
+        m_instance = new SplashScreen(QPixmap(":/res/res/image/loading.png"));
     }
     return m_instance;
 }
